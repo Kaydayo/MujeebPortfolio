@@ -73,7 +73,7 @@ div#main-sec{
 }
 #hero-text1{
     font-size: 60px;
-    width: 550px;
+    width: 600px;
 }
 #hero-p{
     width: 550px;
@@ -125,7 +125,7 @@ section.dub-mains #section1{
     
 }
 img#git-pix{
-    margin-top: 30px;;
+    margin-top: 30px;
 }
 img#git-pix p{
     font-weight: bolder;
@@ -206,6 +206,10 @@ div.box p{
     width: 300px;
     margin-bottom: 40px;
 }
+section#last-sec{
+   display: grid;
+   gap: 40px;
+}
 
 img#check{
     display: inline-block;
@@ -240,4 +244,103 @@ div.thirdbar{
 }
 div.contact{
     display: flex;
+    gap: 50px;
+    padding: auto auto;
+    margin-top: 60px;
+    margin-left: 60px;;
+}
+div#contact-left{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+h1.blue{
+    color: rgb(165, 165, 165);
+    font-size: 30pt;
+    margin-left: 130px;
+}
+h1.blue+p{
+    width: 290px;
+    line-height: 1.5em;
+    margin-left: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div#contact-img{
+    margin-right: 300px;
+}
+a img{
+    width: auto;
+    height: 40px;
+    margin-top: 20px;
+}
+div#contact-left{
+    align-items: center;
+}
+section#myReview{
+    align-items: center;
+    display: flex;
+    margin-top: 190px;
+    padding: 50px 0;
+}
+#rev{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+#rev h1{
+    font-size: 30pt;
+    color: grey;
+}
+#rev p{
+    font-size: 25pt;
+    font-weight: bold;
+}
+input#search-box{
+    width: 500px;
+    height: 40px;
+    padding-left: 30px;
+    margin-left: 0;
+}
+
+#rev button{
+    background-color: greenyellow;
+    border: none;
+    width: 50px;
+    height: 43px;
+    margin-right: 0;
+    position: absolute;
+
+}
+#rev img{
+    width: auto;
+    height: 20px;
+
+}
+button#cv{
+    margin-top: 20px;
+    width: 140px;
+    margin-left: 0;
+    color: white;
+    position: initial;
+}
+footer{
+    height: 280px;
+    background-color: blue;
+    padding-top: 50px;
+    padding-left: 150px;
+    color: rgba(255, 255, 255, 0.733);
+    display: flex;
+}
+.noline li{
+    display: Block;
+    margin-bottom: 20px;
+}
+div.marge{
+    margin-left: 130px;
+}
+li.bold{
+    font-weight: Bold;
+    color: white;
 }
