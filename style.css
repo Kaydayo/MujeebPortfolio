@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 0;
+}
+
+div#nav-sol{
+    display: flex;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.01);
+    height: 60px;
+}
+
+li a{ 
+    text-decoration: none;
+    color: rgb(110, 110, 110);  
+}
+
+li a:hover{
+    color: rgb(63, 63, 63);  
+}
+li{
+    display: inline;
+    margin-left:30px;
+}
+div #side{
+    display: float;
+    float: right;
+    width: 600px;
+    margin-top: 20px;
+}
+#blue{
+    color: blue;
+}
+div#logo{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+a#contact-btn{
+    color:blue;
+    border: 1px solid blue;
+    padding: 10px; 
+    border-radius: 15px;
+}
+
+a#contact-btn:hover{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+main{
+    height: 60vh;
+    padding: 0;
+
+}
+div#main-sec{
+    display: flex;
+    padding: auto auto;
+    margin-top: 200px;
+    margin-left: 150px;
+    margin-right: auto;
+}
+#hero-text1{
+    font-size: 60px;
+    width: 550px;
+}
+#hero-p{
+    width: 550px;
+    line-height: 1.5em;
+    font-weight: 200;
+}
+#side-hero{
+  margin:0 80px;
+}
+#hero-img img{
+    width: auto;
+    height: 300px;
+}
+
+button#Hire-me{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    width: 160px;
+    font-size: 12pt;
+    margin-top: 10px;
+}
+button#Hire-me:hover{
+    opacity: 60%;
+}
+section.dub-mains{
+    background-color: blue;
+    height: 80vh;
+    display: flex;
+    padding-top: 100px;
+    padding-left: 200px;
+    
+}
+section.dub-mains #section1{
+    width: 300px;
+    background-color: white;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 70px 10px rgba(255, 255, 255, 0.171);
+}
+img#git-pix{
+    margin-top: 30px;;
+}
+img#git-pix p{
+    font-weight: bolder;
+}
+
+p#Git{
+    font-weight: bolder;
+    margin-top: 20px;
+    font-size: 30pt;
+}
+p#repo{
+    margin: 20px 20px;
+    border: 1px solid rgba(0, 0, 255, 0.425);
+    border-radius: 5px;
+}
