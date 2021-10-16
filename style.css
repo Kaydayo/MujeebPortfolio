@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 *{
     margin: 0;
     padding: 0;
@@ -100,19 +103,26 @@ button#Hire-me:hover{
 }
 section.dub-mains{
     background-color: blue;
-    height: 80vh;
+    background-image: url('./images/pngegg.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: left; 
+    background-position-x: 500px;
+    height: 60vh;
     display: flex;
-    padding-top: 100px;
-    padding-left: 200px;
+    padding-top: 200px;
+    padding-left: 100px;
+    gap: 70px;
     
 }
 section.dub-mains #section1{
-    width: 300px;
+    width: 900px;
     background-color: white;
     height: 300px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 0 70px 10px rgba(255, 255, 255, 0.171);
+    
 }
 img#git-pix{
     margin-top: 30px;;
@@ -127,7 +137,107 @@ p#Git{
     font-size: 30pt;
 }
 p#repo{
-    margin: 20px 20px;
-    border: 1px solid rgba(0, 0, 255, 0.425);
+    margin-top: 10px;
     border-radius: 5px;
+    box-sizing: border-box;
+}
+p#repo+p{
+    font-size: 15pt;
+    margin-top: 9px;
+    margin-top: 10px;
+}
+#section2 h2{
+    color: black;
+    font-size: 40pt;
+}
+#section2 p{
+    margin-top: 30px;
+    line-height: 1.5em;
+    width: 190px;
+    color: black;
+}
+svg{
+    position: absolute;
+    width: auto;
+    height: 200px;
+    top: 50px;
+    left: 30px;
+}
+
+svg#sv2{
+    position: absolute;
+    left: 1200px;
+    top: 200px;
+}
+
+div#container{
+    margin-top: 60px;
+    margin-left: 25px;
+    margin-right: auto;
+    display: flex;
+}
+div.box{
+    width: 400px;
+    border: 2px solid rgba(0, 0, 0, 0.021);
+    margin: 30px;
+}
+
+div#imgcard{
+    background-color: blue;
+}
+div#imgcard img{
+    width: 225px;
+    height: 225px;
+    margin-bottom: 30px;
+    margin-left: 6rem;
+    margin-right:auto;
+    margin-top: 30px;
+}
+
+div#imgcard+h3{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+div.box p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+img#check{
+    display: inline-block;
+    position: absolute;
+    margin-top: -18px;
+    margin-left: 330px;
+}
+div.progress-bar{
+    width: 300px;
+    background-color: rgb(98, 228, 98);
+    margin-bottom: 30px;
+    height: 10px;
+    border-radius: 20px;    
+}
+div.ecaps{
+    width: 350px;
+    border: 0.5px solid rgba(128, 128, 128, 0.212);
+    height: 10px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+div.progress-bar p{
+    display: inline;
+    float: left;
+}
+div.secbar{
+    width: 320px
+}
+div.thirdbar{
+    width: 200px
+}
+div.contact{
+    display: flex;
 }
